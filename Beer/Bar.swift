@@ -13,8 +13,12 @@ class Bar: NSObject, MKAnnotation {
     let name: String
     let coordinate: CLLocationCoordinate2D
 
+    var invitations: [Invitation]
+
     init(name: String, coordinate: CLLocationCoordinate2D) {
         self.name = name
         self.coordinate = coordinate
+
+        invitations = []
     }
 }

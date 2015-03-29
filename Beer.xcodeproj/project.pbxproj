@@ -18,7 +18,6 @@
 		FAD638EC1AC8AB1400E004C4 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638EB1AC8AB1400E004C4 /* Bar.swift */; };
 		FAD638EE1AC8AB3600E004C4 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638ED1AC8AB3600E004C4 /* Invitation.swift */; };
 		FAD638F01AC8AB7200E004C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD638EF1AC8AB7200E004C4 /* MapKit.framework */; };
-		FAD638F21AC8AE6400E004C4 /* LocatedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638F11AC8AE6400E004C4 /* LocatedUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +46,6 @@
 		FAD638EB1AC8AB1400E004C4 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bar.swift; path = Beer/Bar.swift; sourceTree = "<group>"; };
 		FAD638ED1AC8AB3600E004C4 /* Invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Invitation.swift; path = Beer/Invitation.swift; sourceTree = "<group>"; };
 		FAD638EF1AC8AB7200E004C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		FAD638F11AC8AE6400E004C4 /* LocatedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocatedUser.swift; path = Beer/LocatedUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +132,6 @@
 				FAD638E91AC8AB0300E004C4 /* User.swift */,
 				FAD638EB1AC8AB1400E004C4 /* Bar.swift */,
 				FAD638ED1AC8AB3600E004C4 /* Invitation.swift */,
-				FAD638F11AC8AE6400E004C4 /* LocatedUser.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -240,7 +237,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD638EC1AC8AB1400E004C4 /* Bar.swift in Sources */,
-				FAD638F21AC8AE6400E004C4 /* LocatedUser.swift in Sources */,
 				FAD638EA1AC8AB0300E004C4 /* User.swift in Sources */,
 				FAD638EE1AC8AB3600E004C4 /* Invitation.swift in Sources */,
 				FAD638C91AC8A76200E004C4 /* ViewController.swift in Sources */,
