@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ACBE28B2-A366-4F98-9E8B-85D126EF1AE7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Beer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4790CB9427EEC3481C0AC00608B4006CE3003367</key>
+		<string>https://github.com/BeerCorporation/beer.swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Beer.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4790CB9427EEC3481C0AC00608B4006CE3003367</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BeerCorporation/beer.swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4790CB9427EEC3481C0AC00608B4006CE3003367</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4790CB9427EEC3481C0AC00608B4006CE3003367</string>
+			<key>IDESourceControlWCCName</key>
+			<string>beer.swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
