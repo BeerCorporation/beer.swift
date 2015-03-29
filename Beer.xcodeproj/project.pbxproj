@@ -14,6 +14,11 @@
 		FAD638CE1AC8A76200E004C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD638CD1AC8A76200E004C4 /* Images.xcassets */; };
 		FAD638D11AC8A76200E004C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD638CF1AC8A76200E004C4 /* LaunchScreen.xib */; };
 		FAD638DD1AC8A76200E004C4 /* BeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638DC1AC8A76200E004C4 /* BeerTests.swift */; };
+		FAD638EA1AC8AB0300E004C4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638E91AC8AB0300E004C4 /* User.swift */; };
+		FAD638EC1AC8AB1400E004C4 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638EB1AC8AB1400E004C4 /* Bar.swift */; };
+		FAD638EE1AC8AB3600E004C4 /* Invitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638ED1AC8AB3600E004C4 /* Invitation.swift */; };
+		FAD638F01AC8AB7200E004C4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD638EF1AC8AB7200E004C4 /* MapKit.framework */; };
+		FAD638F21AC8AE6400E004C4 /* LocatedUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD638F11AC8AE6400E004C4 /* LocatedUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		FAD638D61AC8A76200E004C4 /* BeerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD638DB1AC8A76200E004C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD638DC1AC8A76200E004C4 /* BeerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerTests.swift; sourceTree = "<group>"; };
+		FAD638E91AC8AB0300E004C4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Beer/User.swift; sourceTree = "<group>"; };
+		FAD638EB1AC8AB1400E004C4 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bar.swift; path = Beer/Bar.swift; sourceTree = "<group>"; };
+		FAD638ED1AC8AB3600E004C4 /* Invitation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Invitation.swift; path = Beer/Invitation.swift; sourceTree = "<group>"; };
+		FAD638EF1AC8AB7200E004C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAD638F11AC8AE6400E004C4 /* LocatedUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocatedUser.swift; path = Beer/LocatedUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD638F01AC8AB7200E004C4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,8 @@
 		FAD638B51AC8A76200E004C4 = {
 			isa = PBXGroup;
 			children = (
+				FAD638EF1AC8AB7200E004C4 /* MapKit.framework */,
+				FAD638E61AC8AA4800E004C4 /* Models */,
 				FAD638C01AC8A76200E004C4 /* Beer */,
 				FAD638D91AC8A76200E004C4 /* BeerTests */,
 				FAD638BF1AC8A76200E004C4 /* Products */,
@@ -113,6 +126,17 @@
 				FAD638DB1AC8A76200E004C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD638E61AC8AA4800E004C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAD638E91AC8AB0300E004C4 /* User.swift */,
+				FAD638EB1AC8AB1400E004C4 /* Bar.swift */,
+				FAD638ED1AC8AB3600E004C4 /* Invitation.swift */,
+				FAD638F11AC8AE6400E004C4 /* LocatedUser.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD638EC1AC8AB1400E004C4 /* Bar.swift in Sources */,
+				FAD638F21AC8AE6400E004C4 /* LocatedUser.swift in Sources */,
+				FAD638EA1AC8AB0300E004C4 /* User.swift in Sources */,
+				FAD638EE1AC8AB3600E004C4 /* Invitation.swift in Sources */,
 				FAD638C91AC8A76200E004C4 /* ViewController.swift in Sources */,
 				FAD638C41AC8A76200E004C4 /* AppDelegate.swift in Sources */,
 				FAD638C71AC8A76200E004C4 /* Beer.xcdatamodeld in Sources */,
@@ -409,6 +437,7 @@
 				FAD638E21AC8A76200E004C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD638E31AC8A76200E004C4 /* Build configuration list for PBXNativeTarget "BeerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +446,7 @@
 				FAD638E51AC8A76200E004C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
